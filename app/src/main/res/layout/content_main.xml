@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="assigment.unisa.mprocbidder.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <GridLayout
+        android:layout_width="190dp"
+        android:layout_height="294dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:alignmentMode="alignBounds"
+        android:clickable="false"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            app:srcCompat="@mipmap/order" />
+
+        <TextView
+            android:id="@+id/lblOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical"
+            android:layout_row="1"
+            android:text="Orders"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            tools:text="Orders" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            app:srcCompat="@mipmap/request" />
+
+        <TextView
+            android:id="@+id/lblRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical"
+            android:layout_row="2"
+            android:elevation="1dp"
+            android:text="Requests"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            tools:text="Requests" />
+
+        <TextView
+            android:id="@+id/lblInvoices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical"
+            android:layout_row="3"
+            android:text="Invoices"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center_vertical"
+            android:layout_row="0"
+            app:srcCompat="@mipmap/quote" />
+
+        <TextView
+            android:id="@+id/lblQuotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical"
+            android:layout_row="0"
+            android:text="Quotes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            tools:text="Quotes" />
+
+        <TextView
+            android:id="@+id/tvwNumQuotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical"
+            android:layout_row="0"
+            android:text="0"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tvwNumOrders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical"
+            android:layout_row="1"
+            android:text="0"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tvwNumRequests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical"
+            android:layout_row="2"
+            android:text="0"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tvwNumInvoices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical"
+            android:layout_row="3"
+            android:text="0"
+            android:textSize="18sp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            app:srcCompat="@mipmap/invoice" />
+
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>
